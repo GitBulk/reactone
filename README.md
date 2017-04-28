@@ -1,1 +1,1 @@
-hellow world
+a sample React project
