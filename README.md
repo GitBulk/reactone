@@ -1,1 +1,1 @@
-a sample React project
+A sample React project 2017
