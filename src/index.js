@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import HelloUser from './HelloUser';
-import Prop1 from './Prop1'
+import Prop1 from './Prop1';
+import Prop2 from './Prop2';
+import Kaka from './Prop3';
 
-
-function tick() {
+/*function tick() {
     const element = (
         <div>
             <h1>Hello world</h1>
@@ -15,7 +16,7 @@ function tick() {
 }
 
 setInterval(tick, 100);
-
+*/
 function formatName(user) {
     return user.firstName + ' ' + user.lastName;
 }
@@ -67,11 +68,32 @@ const element4 = (
 
 
 // test Prop1
-ReactDOM.render(
+/*ReactDOM.render(
     <Prop1 
-        img='https://avatars3.githubusercontent.com/u/11367920?v=3&s=460'
+        img='https://s.gravatar.com/avatar/fb15c0de33b61ebfd3490df31ed0922d?s=300'
         name='Toan'
         username="Tran" />,
     document.getElementById('root')
-);
+);*/
 
+// test Prop2
+// const userProps2 = {
+//     name: 'Toan Tran 2',
+//     username: 'gitbulk',
+//     img: 'https://s.gravatar.com/avatar/fb15c0de33b61ebfd3490df31ed0922d?s=300'
+// }
+
+// ReactDOM.render(
+//     <Prop2 user={userProps2} />
+//     ,document.getElementById('root')
+// );
+
+
+ReactDOM.render(
+    <Kaka user={{
+        img: 'https://s.gravatar.com/avatar/fb15c0de33b61ebfd3490df31ed0922d?s=300',
+        name: 'Toan Tran 3',
+        username: 'gitbulk'
+    }} />,
+    document.getElementById('root')
+); 
