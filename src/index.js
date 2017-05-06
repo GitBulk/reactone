@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import HelloUser from './HelloUser';
+import Prop1 from './Prop1'
+
 
 function tick() {
     const element = (
@@ -50,3 +53,25 @@ const element4 = (
 //     element4
 //     ,document.getElementById('root')
 // );
+
+// ReactDOM.render(
+//     element
+//     ,document.getElementById('root')
+// );
+
+
+// ReactDOM.render(
+//     <HelloUser name="Toan Tran" />,
+//     document.getElementById('root')
+// );
+
+
+// test Prop1
+ReactDOM.render(
+    <Prop1 
+        img='https://avatars3.githubusercontent.com/u/11367920?v=3&s=460'
+        name='Toan'
+        username="Tran" />,
+    document.getElementById('root')
+);
+
