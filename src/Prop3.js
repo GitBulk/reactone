@@ -24,7 +24,7 @@ class UserName extends Component {
     }
 }
 
-export default class Kaka extends Component {
+export default class Badge extends Component {
     render() {
         return (
             <div>

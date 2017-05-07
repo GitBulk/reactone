@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import HelloUser from './HelloUser';
 import Prop1 from './Prop1';
 import Prop2 from './Prop2';
-import Kaka from './Prop3';
+import Badge from './Prop3';
 
 /*function tick() {
     const element = (
@@ -90,7 +90,7 @@ const element4 = (
 
 
 ReactDOM.render(
-    <Kaka user={{
+    <Badge user={{
         img: 'https://s.gravatar.com/avatar/fb15c0de33b61ebfd3490df31ed0922d?s=300',
         name: 'Toan Tran 3',
         username: 'gitbulk'
