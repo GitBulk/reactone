@@ -4,6 +4,8 @@ import HelloUser from './HelloUser';
 import Prop1 from './Prop1';
 import Prop2 from './Prop2';
 import Badge from './Prop3';
+import AllFriends from './AllFriends';
+import FriendList from './FriendList';
 
 /*function tick() {
     const element = (
@@ -88,12 +90,23 @@ const element4 = (
 //     ,document.getElementById('root')
 // );
 
-
-ReactDOM.render(
+// test Prop3
+/*ReactDOM.render(
     <Badge user={{
         img: 'https://s.gravatar.com/avatar/fb15c0de33b61ebfd3490df31ed0922d?s=300',
         name: 'Toan Tran 3',
         username: 'gitbulk'
     }} />,
     document.getElementById('root')
-); 
+); */
+
+
+// ReactDOM.render(
+//     <AllFriends />,
+//     document.getElementById('root')
+// );
+
+ReactDOM.render(
+    <FriendList />
+    ,document.getElementById('root')
+);
