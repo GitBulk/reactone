@@ -8,3 +8,17 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+<div className="Comment">
+	<div className="UserInfo">
+		avatar
+		<div className="UserInfo-Name">
+			info name
+		</div>
+	</div>
+	<div className="Comment-Text">
+		text
+	</div>
+	<div className="Comment-Date">
+		date
+	</div>
+</div>

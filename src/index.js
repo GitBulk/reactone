@@ -6,6 +6,8 @@ import Prop2 from './Prop2';
 import Badge from './Prop3';
 import AllFriends from './AllFriends';
 import FriendList from './FriendList';
+import Comment from './FunctionalComponent';
+
 
 /*function tick() {
     const element = (
@@ -106,7 +108,24 @@ const element4 = (
 //     document.getElementById('root')
 // );
 
+// ReactDOM.render(
+//     <FriendList />
+//     ,document.getElementById('root')
+// );
+
+const commentData = {
+    date: new Date(),
+    text: 'Learning React',
+    author: {
+        name: 'Gitbulk',
+        avatarUrl: 'http://placekitten.com/g/64/64'
+    }
+};
+
 ReactDOM.render(
-    <FriendList />
-    ,document.getElementById('root')
+    <Comment
+        date={commentData.date}
+        text={commentData.text}
+        author={commentData.author} />
+    , document.getElementById('root')
 );
