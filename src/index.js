@@ -7,7 +7,7 @@ import Badge from './Prop3';
 import AllFriends from './AllFriends';
 import FriendList from './FriendList';
 import Comment from './FunctionalComponent';
-
+import Clock from './AboutState';
 
 /*function tick() {
     const element = (
@@ -113,7 +113,9 @@ const element4 = (
 //     ,document.getElementById('root')
 // );
 
-const commentData = {
+
+// test function component
+/*const commentData = {
     date: new Date(),
     text: 'Learning React',
     author: {
@@ -128,4 +130,9 @@ ReactDOM.render(
         text={commentData.text}
         author={commentData.author} />
     , document.getElementById('root')
+);*/
+
+ReactDOM.render(
+    <Clock />
+    ,document.getElementById('root')
 );
