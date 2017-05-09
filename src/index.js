@@ -8,7 +8,8 @@ import AllFriends from './AllFriends';
 import FriendList from './FriendList';
 import Comment from './FunctionalComponent';
 import Clock from './AboutState';
-import Menu from './NavigationMenu'
+//import Menu from './NavigationMenu';
+import Toggle from './Toggle';
 
 /*function tick() {
     const element = (
@@ -140,8 +141,13 @@ ReactDOM.render(
 //     ,document.getElementById('root')
 // );
 
+// test navigation menu
+// ReactDOM.render(
+//     <Menu items={ ['Home', 'Services', 'About', 'Contact us'] }/>
+//     ,document.getElementById('root')
+// );
 
 ReactDOM.render(
-    <Menu items={ ['Home', 'Services', 'About', 'Contact us'] }/>
+    <Toggle />
     ,document.getElementById('root')
 );

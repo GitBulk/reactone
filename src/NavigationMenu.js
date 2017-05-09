@@ -22,7 +22,7 @@ class Menu extends Component {
                 <ul>
                     {this.props.items.map(function(item, index) {
                         var style = '';
-                        if (self.state.focused == index) {
+                        if (self.state.focused === index) {
                             style = 'focused';
                         }
 
