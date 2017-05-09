@@ -8,6 +8,7 @@ import AllFriends from './AllFriends';
 import FriendList from './FriendList';
 import Comment from './FunctionalComponent';
 import Clock from './AboutState';
+import Menu from './NavigationMenu'
 
 /*function tick() {
     const element = (
@@ -132,7 +133,15 @@ ReactDOM.render(
     , document.getElementById('root')
 );*/
 
+
+// test state sample
+// ReactDOM.render(
+//     <Clock />
+//     ,document.getElementById('root')
+// );
+
+
 ReactDOM.render(
-    <Clock />
+    <Menu items={ ['Home', 'Services', 'About', 'Contact us'] }/>
     ,document.getElementById('root')
 );
