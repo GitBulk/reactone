@@ -10,6 +10,10 @@ import Comment from './FunctionalComponent';
 import Clock from './AboutState';
 //import Menu from './NavigationMenu';
 import Toggle from './Toggle';
+import NumberList from './Keys';
+import NameForm from './NameForm';
+import EssayForm from './EssayForm';
+import Calculator from './Calculator';
 
 /*function tick() {
     const element = (
@@ -147,7 +151,25 @@ ReactDOM.render(
 //     ,document.getElementById('root')
 // );
 
+// ReactDOM.render(
+//     <Toggle />
+//     ,document.getElementById('root')
+// );
+
+
+// const numbers = [1, 2, 3, 2, 4];
+// ReactDOM.render(
+//     <NumberList numbers={numbers} />
+//     , document.getElementById('root')
+// );
+
+
+// ReactDOM.render(
+//     <EssayForm />
+//     ,document.getElementById('root')
+// );
+
 ReactDOM.render(
-    <Toggle />
+    <Calculator />
     ,document.getElementById('root')
 );
