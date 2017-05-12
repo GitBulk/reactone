@@ -1,11 +1,10 @@
 body {
   background: #f5f5f5;
-
+}
   h1 {
     text-align: center;
     font-family: arial;
-    color: red;
-    /* #5a5a5a */
+    color: #5a5a5a;
   }
 
   ul {
@@ -15,6 +14,7 @@ body {
     align-items: flex-start;
     justify-content:center;
     flex-basis: 80%;
+  }
 
     li {
       flex-basis: 20%;
@@ -22,7 +22,7 @@ body {
       flex-direction: column;
       margin-bottom: 20px;
       align-items:center;
-
+    }
       span {
         font-family: arial;
         font-size: 14px;
@@ -35,7 +35,6 @@ body {
         border-radius: 3px;
         box-shadow: 1px 1px 3px rgba(0,0,0,0.2); 
       }
-    }
-  }
+  
+  
 
-}

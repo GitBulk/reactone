@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import './UserList.less';
+import './UserList.css';
 
 class UserItem extends Component {
 
