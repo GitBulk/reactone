@@ -14,6 +14,7 @@ import NumberList from './Keys';
 import NameForm from './NameForm';
 import EssayForm from './EssayForm';
 import Calculator from './Calculator';
+import UserList from './FetchingSamples/UserList';
 
 /*function tick() {
     const element = (
@@ -169,7 +170,12 @@ ReactDOM.render(
 //     ,document.getElementById('root')
 // );
 
+// ReactDOM.render(
+//     <Calculator />
+//     ,document.getElementById('root')
+// );
+
 ReactDOM.render(
-    <Calculator />
-    ,document.getElementById('root')
+    <UserList />,
+    document.getElementById('root')
 );
