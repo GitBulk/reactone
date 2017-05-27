@@ -15,6 +15,7 @@ import NameForm from './NameForm';
 import EssayForm from './EssayForm';
 import Calculator from './Calculator';
 import UserList from './FetchingSamples/UserList';
+import Tictactoe from './tictactoe/Game';
 
 /*function tick() {
     const element = (
@@ -175,7 +176,13 @@ ReactDOM.render(
 //     ,document.getElementById('root')
 // );
 
+// ReactDOM.render(
+//     <UserList />,
+//     document.getElementById('root')
+// );
+
+
 ReactDOM.render(
-    <UserList />,
+    <Tictactoe />,
     document.getElementById('root')
 );
